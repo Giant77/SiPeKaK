@@ -7,9 +7,7 @@ use Illuminate\Support\Facades\Route;
 // });
 
 // login route
-Route::get('/', function() {
-    return view('auth.login');
-});
+Route::redirect('/', '/login');
 
 Route::middleware([
     'auth:sanctum',
