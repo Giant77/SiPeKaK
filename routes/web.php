@@ -18,3 +18,5 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
+
+route::view('/test', 'testPages');
