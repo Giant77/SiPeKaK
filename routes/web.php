@@ -19,6 +19,7 @@ use App\Http\Controllers\TypeController;
 use App\Http\Controllers\UserController;
 use App\Models\User;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AuthController;
 
 /*
 |--------------------------------------------------------------------------
@@ -108,3 +109,6 @@ Route::get('/sendEvent', function () {
         // event(new NewReservationEvent($message, $superAdmin));
     }
 });
+
+Route::view('/login', 'auth.login')->name('login');
+Route::post('/postLogin', [AuthController::class, 'postLogin'])->name('postlogin');

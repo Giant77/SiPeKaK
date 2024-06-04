@@ -1,5 +1,5 @@
 @extends('template.auth')
-@section('title', 'Login amar')
+@section('title', 'Login')
 @section('content')
     <style>
         #btn_submit {
@@ -31,14 +31,14 @@
                         <div class="row mb-3">
                             <div class="col-lg-12">
                                 <div class="d-flex justify-content-center">
-                                    <img src="{{ asset('img/logo/sip.png') }}" width="100" height="100"
+                                    <img src="{{ asset('img/logo/SKK_logo.jpg') }}" width="100" height="100"
                                         class="rounded-circle mx-auto" alt="logo" style="background-color: white;">
                                 </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-12">
-                                <h5 class="card-title text-center">Sewa Kamar Kos</h5>
+                                <h5 class="card-title text-center">Hotel Information System</h5>
                             </div>
                         </div>
                         <form onsubmit="return disableButton()" class="form-signin" action="/postLogin" method="POST">
