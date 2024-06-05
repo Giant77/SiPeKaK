@@ -83,8 +83,6 @@
                     <li><a class="dropdown-item"
                             href="{{ route('user.show', ['user' => auth()->user()->id]) }}">Profil</a>
                     </li>
-                    <li><a class="dropdown-item" href="#">Activity</a></li>
-                    <li><a class="dropdown-item" href="#">Setting</a></li>
                     <li>
                         <hr class="dropdown-divider">
                     </li>

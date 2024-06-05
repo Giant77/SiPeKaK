@@ -127,8 +127,8 @@ class TransactionRoomReservationController extends Controller
 
         event(new RefreshDashboardEvent('Someone reserved a room'));
 
-        return redirect()->route('transaction.index')
-            ->with('success', 'Room '.$room->number.' has been reservated by '.$customer->name);
+        return redirect()->route('transaction.index');
+            // ->with('success', 'Room '.$room->number.' has been reservated by '.$customer->name);
     }
 
     private function getOccupiedRoomID($stayFrom, $stayUntil)
