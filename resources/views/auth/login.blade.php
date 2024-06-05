@@ -31,7 +31,7 @@
                         <div class="row mb-3">
                             <div class="col-lg-12">
                                 <div class="d-flex justify-content-center">
-                                    <img src="{{ asset('img/logo/sip.png') }}" width="100" height="100"
+                                    <img src="{{ asset('img/logo/SKK_logo.jpg') }}" width="100" height="100"
                                         class="rounded-circle mx-auto" alt="logo" style="background-color: white;">
                                 </div>
                             </div>
@@ -84,7 +84,7 @@
                                 </div>
                             </div>
                             <hr class="my-4">
-                            <p class="text-center">Forgot Password? <a href="/forgot-password">go here</a></p>
+                            {{-- <p class="text-center">Forgot Password? <a href="/forgot-password">go here</a></p> --}}
                         </form>
                     </div>
                 </div>
